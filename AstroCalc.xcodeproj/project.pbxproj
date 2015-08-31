@@ -12,6 +12,23 @@
 		1506CCD11B94922D002EE75C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1506CCD01B94922D002EE75C /* Images.xcassets */; };
 		1506CCD41B94922D002EE75C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1506CCD21B94922D002EE75C /* MainMenu.xib */; };
 		1506CCE01B94922D002EE75C /* AstroCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCDF1B94922D002EE75C /* AstroCalcTests.m */; };
+		1506CCEB1B949DCC002EE75C /* Astronomical Algorithms 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1506CCE91B949DCC002EE75C /* Astronomical Algorithms 2.pdf */; };
+		1506CCEC1B949DCC002EE75C /* main_old.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCEA1B949DCC002EE75C /* main_old.m */; };
+		1506CCEE1B949DF3002EE75C /* aaplus in Resources */ = {isa = PBXBuildFile; fileRef = 1506CCED1B949DF3002EE75C /* aaplus */; };
+		1506CCF11B949E13002EE75C /* AstroCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCF01B949E13002EE75C /* AstroCalc.m */; };
+		1506CD0D1B949E3B002EE75C /* AC2DCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCF31B949E3B002EE75C /* AC2DCoordinate.m */; };
+		1506CD0E1B949E3B002EE75C /* ACCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCF51B949E3B002EE75C /* ACCoordinateTransformation.m */; };
+		1506CD0F1B949E3B002EE75C /* ACDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCF71B949E3B002EE75C /* ACDate.m */; };
+		1506CD101B949E3B002EE75C /* ACDynamicalTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCF91B949E3B002EE75C /* ACDynamicalTime.m */; };
+		1506CD111B949E3B002EE75C /* ACEarth.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCFB1B949E3B002EE75C /* ACEarth.m */; };
+		1506CD121B949E3B002EE75C /* ACHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCFD1B949E3B002EE75C /* ACHelpers.m */; };
+		1506CD131B949E3B002EE75C /* ACInterpolate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCFF1B949E3B002EE75C /* ACInterpolate.m */; };
+		1506CD141B949E3B002EE75C /* ACMoon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CD011B949E3B002EE75C /* ACMoon.m */; };
+		1506CD151B949E3B002EE75C /* ACMoonPhases.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CD031B949E3B002EE75C /* ACMoonPhases.m */; };
+		1506CD161B949E3B002EE75C /* ACNutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CD051B949E3B002EE75C /* ACNutation.m */; };
+		1506CD171B949E3B002EE75C /* ACRiseTransitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CD081B949E3B002EE75C /* ACRiseTransitSet.m */; };
+		1506CD181B949E3B002EE75C /* ACRiseTransitSetDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CD0A1B949E3B002EE75C /* ACRiseTransitSetDetails.m */; };
+		1506CD191B949E3B002EE75C /* ACSidereal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CD0C1B949E3B002EE75C /* ACSidereal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,38 @@
 		1506CCD91B94922D002EE75C /* AstroCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1506CCDE1B94922D002EE75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1506CCDF1B94922D002EE75C /* AstroCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroCalcTests.m; sourceTree = "<group>"; };
+		1506CCE91B949DCC002EE75C /* Astronomical Algorithms 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Astronomical Algorithms 2.pdf"; sourceTree = "<group>"; };
+		1506CCEA1B949DCC002EE75C /* main_old.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main_old.m; sourceTree = "<group>"; };
+		1506CCED1B949DF3002EE75C /* aaplus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aaplus; sourceTree = "<group>"; };
+		1506CCEF1B949E13002EE75C /* AstroCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstroCalc.h; sourceTree = "<group>"; };
+		1506CCF01B949E13002EE75C /* AstroCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstroCalc.m; sourceTree = "<group>"; };
+		1506CCF21B949E3B002EE75C /* AC2DCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC2DCoordinate.h; sourceTree = "<group>"; };
+		1506CCF31B949E3B002EE75C /* AC2DCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AC2DCoordinate.m; sourceTree = "<group>"; };
+		1506CCF41B949E3B002EE75C /* ACCoordinateTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCoordinateTransformation.h; sourceTree = "<group>"; };
+		1506CCF51B949E3B002EE75C /* ACCoordinateTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCoordinateTransformation.m; sourceTree = "<group>"; };
+		1506CCF61B949E3B002EE75C /* ACDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDate.h; sourceTree = "<group>"; };
+		1506CCF71B949E3B002EE75C /* ACDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDate.m; sourceTree = "<group>"; };
+		1506CCF81B949E3B002EE75C /* ACDynamicalTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDynamicalTime.h; sourceTree = "<group>"; };
+		1506CCF91B949E3B002EE75C /* ACDynamicalTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDynamicalTime.m; sourceTree = "<group>"; };
+		1506CCFA1B949E3B002EE75C /* ACEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEarth.h; sourceTree = "<group>"; };
+		1506CCFB1B949E3B002EE75C /* ACEarth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEarth.m; sourceTree = "<group>"; };
+		1506CCFC1B949E3B002EE75C /* ACHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHelpers.h; sourceTree = "<group>"; };
+		1506CCFD1B949E3B002EE75C /* ACHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHelpers.m; sourceTree = "<group>"; };
+		1506CCFE1B949E3B002EE75C /* ACInterpolate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACInterpolate.h; sourceTree = "<group>"; };
+		1506CCFF1B949E3B002EE75C /* ACInterpolate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACInterpolate.m; sourceTree = "<group>"; };
+		1506CD001B949E3B002EE75C /* ACMoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMoon.h; sourceTree = "<group>"; };
+		1506CD011B949E3B002EE75C /* ACMoon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMoon.m; sourceTree = "<group>"; };
+		1506CD021B949E3B002EE75C /* ACMoonPhases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMoonPhases.h; sourceTree = "<group>"; };
+		1506CD031B949E3B002EE75C /* ACMoonPhases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMoonPhases.m; sourceTree = "<group>"; };
+		1506CD041B949E3B002EE75C /* ACNutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNutation.h; sourceTree = "<group>"; };
+		1506CD051B949E3B002EE75C /* ACNutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNutation.m; sourceTree = "<group>"; };
+		1506CD061B949E3B002EE75C /* ACPlus-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACPlus-Prefix.pch"; sourceTree = "<group>"; };
+		1506CD071B949E3B002EE75C /* ACRiseTransitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRiseTransitSet.h; sourceTree = "<group>"; };
+		1506CD081B949E3B002EE75C /* ACRiseTransitSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACRiseTransitSet.m; sourceTree = "<group>"; };
+		1506CD091B949E3B002EE75C /* ACRiseTransitSetDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRiseTransitSetDetails.h; sourceTree = "<group>"; };
+		1506CD0A1B949E3B002EE75C /* ACRiseTransitSetDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACRiseTransitSetDetails.m; sourceTree = "<group>"; };
+		1506CD0B1B949E3B002EE75C /* ACSidereal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSidereal.h; sourceTree = "<group>"; };
+		1506CD0C1B949E3B002EE75C /* ACSidereal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACSidereal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +125,11 @@
 		1506CCC81B94922D002EE75C /* AstroCalc */ = {
 			isa = PBXGroup;
 			children = (
+				1506CD1B1B949E57002EE75C /* AC */,
+				1506CD1A1B949E47002EE75C /* verifed */,
+				1506CCEF1B949E13002EE75C /* AstroCalc.h */,
+				1506CCF01B949E13002EE75C /* AstroCalc.m */,
+				1506CCED1B949DF3002EE75C /* aaplus */,
 				1506CCCB1B94922D002EE75C /* AppDelegate.h */,
 				1506CCCC1B94922D002EE75C /* AppDelegate.m */,
 				1506CCD01B94922D002EE75C /* Images.xcassets */,
@@ -88,6 +142,8 @@
 		1506CCC91B94922D002EE75C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1506CCE91B949DCC002EE75C /* Astronomical Algorithms 2.pdf */,
+				1506CCEA1B949DCC002EE75C /* main_old.m */,
 				1506CCCA1B94922D002EE75C /* Info.plist */,
 				1506CCCE1B94922D002EE75C /* main.m */,
 			);
@@ -109,6 +165,47 @@
 				1506CCDE1B94922D002EE75C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1506CD1A1B949E47002EE75C /* verifed */ = {
+			isa = PBXGroup;
+			children = (
+				1506CD021B949E3B002EE75C /* ACMoonPhases.h */,
+				1506CD031B949E3B002EE75C /* ACMoonPhases.m */,
+			);
+			name = verifed;
+			sourceTree = "<group>";
+		};
+		1506CD1B1B949E57002EE75C /* AC */ = {
+			isa = PBXGroup;
+			children = (
+				1506CCF21B949E3B002EE75C /* AC2DCoordinate.h */,
+				1506CCF31B949E3B002EE75C /* AC2DCoordinate.m */,
+				1506CCF41B949E3B002EE75C /* ACCoordinateTransformation.h */,
+				1506CCF51B949E3B002EE75C /* ACCoordinateTransformation.m */,
+				1506CCF61B949E3B002EE75C /* ACDate.h */,
+				1506CCF71B949E3B002EE75C /* ACDate.m */,
+				1506CCF81B949E3B002EE75C /* ACDynamicalTime.h */,
+				1506CCF91B949E3B002EE75C /* ACDynamicalTime.m */,
+				1506CCFA1B949E3B002EE75C /* ACEarth.h */,
+				1506CCFB1B949E3B002EE75C /* ACEarth.m */,
+				1506CCFC1B949E3B002EE75C /* ACHelpers.h */,
+				1506CCFD1B949E3B002EE75C /* ACHelpers.m */,
+				1506CCFE1B949E3B002EE75C /* ACInterpolate.h */,
+				1506CCFF1B949E3B002EE75C /* ACInterpolate.m */,
+				1506CD001B949E3B002EE75C /* ACMoon.h */,
+				1506CD011B949E3B002EE75C /* ACMoon.m */,
+				1506CD041B949E3B002EE75C /* ACNutation.h */,
+				1506CD051B949E3B002EE75C /* ACNutation.m */,
+				1506CD061B949E3B002EE75C /* ACPlus-Prefix.pch */,
+				1506CD071B949E3B002EE75C /* ACRiseTransitSet.h */,
+				1506CD081B949E3B002EE75C /* ACRiseTransitSet.m */,
+				1506CD091B949E3B002EE75C /* ACRiseTransitSetDetails.h */,
+				1506CD0A1B949E3B002EE75C /* ACRiseTransitSetDetails.m */,
+				1506CD0B1B949E3B002EE75C /* ACSidereal.h */,
+				1506CD0C1B949E3B002EE75C /* ACSidereal.m */,
+			);
+			name = AC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +288,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1506CCEE1B949DF3002EE75C /* aaplus in Resources */,
 				1506CCD11B94922D002EE75C /* Images.xcassets in Resources */,
 				1506CCD41B94922D002EE75C /* MainMenu.xib in Resources */,
+				1506CCEB1B949DCC002EE75C /* Astronomical Algorithms 2.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +309,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1506CD141B949E3B002EE75C /* ACMoon.m in Sources */,
+				1506CD0D1B949E3B002EE75C /* AC2DCoordinate.m in Sources */,
+				1506CD181B949E3B002EE75C /* ACRiseTransitSetDetails.m in Sources */,
+				1506CD101B949E3B002EE75C /* ACDynamicalTime.m in Sources */,
+				1506CD0F1B949E3B002EE75C /* ACDate.m in Sources */,
+				1506CD151B949E3B002EE75C /* ACMoonPhases.m in Sources */,
+				1506CCEC1B949DCC002EE75C /* main_old.m in Sources */,
+				1506CD0E1B949E3B002EE75C /* ACCoordinateTransformation.m in Sources */,
+				1506CD121B949E3B002EE75C /* ACHelpers.m in Sources */,
 				1506CCCF1B94922D002EE75C /* main.m in Sources */,
+				1506CD131B949E3B002EE75C /* ACInterpolate.m in Sources */,
+				1506CCF11B949E13002EE75C /* AstroCalc.m in Sources */,
+				1506CD171B949E3B002EE75C /* ACRiseTransitSet.m in Sources */,
+				1506CD111B949E3B002EE75C /* ACEarth.m in Sources */,
 				1506CCCD1B94922D002EE75C /* AppDelegate.m in Sources */,
+				1506CD191B949E3B002EE75C /* ACSidereal.m in Sources */,
+				1506CD161B949E3B002EE75C /* ACNutation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +445,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AstroCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -342,6 +457,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AstroCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
