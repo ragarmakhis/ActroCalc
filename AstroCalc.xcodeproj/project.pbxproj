@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1506CCCD1B94922D002EE75C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCCC1B94922D002EE75C /* AppDelegate.m */; };
+		1506CCCF1B94922D002EE75C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCCE1B94922D002EE75C /* main.m */; };
+		1506CCD11B94922D002EE75C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1506CCD01B94922D002EE75C /* Images.xcassets */; };
+		1506CCD41B94922D002EE75C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1506CCD21B94922D002EE75C /* MainMenu.xib */; };
+		1506CCE01B94922D002EE75C /* AstroCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1506CCDF1B94922D002EE75C /* AstroCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1506CCDA1B94922D002EE75C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1506CCBE1B94922C002EE75C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1506CCC51B94922C002EE75C;
+			remoteInfo = AstroCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1506CCC61B94922D002EE75C /* AstroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1506CCCA1B94922D002EE75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1506CCCB1B94922D002EE75C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1506CCCC1B94922D002EE75C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1506CCCE1B94922D002EE75C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1506CCD01B94922D002EE75C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1506CCD31B94922D002EE75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1506CCD91B94922D002EE75C /* AstroCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1506CCDE1B94922D002EE75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1506CCDF1B94922D002EE75C /* AstroCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AstroCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1506CCC31B94922C002EE75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1506CCD61B94922D002EE75C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1506CCBD1B94922C002EE75C = {
+			isa = PBXGroup;
+			children = (
+				1506CCC81B94922D002EE75C /* AstroCalc */,
+				1506CCDC1B94922D002EE75C /* AstroCalcTests */,
+				1506CCC71B94922D002EE75C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1506CCC71B94922D002EE75C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1506CCC61B94922D002EE75C /* AstroCalc.app */,
+				1506CCD91B94922D002EE75C /* AstroCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1506CCC81B94922D002EE75C /* AstroCalc */ = {
+			isa = PBXGroup;
+			children = (
+				1506CCCB1B94922D002EE75C /* AppDelegate.h */,
+				1506CCCC1B94922D002EE75C /* AppDelegate.m */,
+				1506CCD01B94922D002EE75C /* Images.xcassets */,
+				1506CCD21B94922D002EE75C /* MainMenu.xib */,
+				1506CCC91B94922D002EE75C /* Supporting Files */,
+			);
+			path = AstroCalc;
+			sourceTree = "<group>";
+		};
+		1506CCC91B94922D002EE75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1506CCCA1B94922D002EE75C /* Info.plist */,
+				1506CCCE1B94922D002EE75C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1506CCDC1B94922D002EE75C /* AstroCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				1506CCDF1B94922D002EE75C /* AstroCalcTests.m */,
+				1506CCDD1B94922D002EE75C /* Supporting Files */,
+			);
+			path = AstroCalcTests;
+			sourceTree = "<group>";
+		};
+		1506CCDD1B94922D002EE75C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1506CCDE1B94922D002EE75C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1506CCC51B94922C002EE75C /* AstroCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1506CCE31B94922D002EE75C /* Build configuration list for PBXNativeTarget "AstroCalc" */;
+			buildPhases = (
+				1506CCC21B94922C002EE75C /* Sources */,
+				1506CCC31B94922C002EE75C /* Frameworks */,
+				1506CCC41B94922C002EE75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroCalc;
+			productName = AstroCalc;
+			productReference = 1506CCC61B94922D002EE75C /* AstroCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1506CCD81B94922D002EE75C /* AstroCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1506CCE61B94922D002EE75C /* Build configuration list for PBXNativeTarget "AstroCalcTests" */;
+			buildPhases = (
+				1506CCD51B94922D002EE75C /* Sources */,
+				1506CCD61B94922D002EE75C /* Frameworks */,
+				1506CCD71B94922D002EE75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1506CCDB1B94922D002EE75C /* PBXTargetDependency */,
+			);
+			name = AstroCalcTests;
+			productName = AstroCalcTests;
+			productReference = 1506CCD91B94922D002EE75C /* AstroCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1506CCBE1B94922C002EE75C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ragarmakhis;
+				TargetAttributes = {
+					1506CCC51B94922C002EE75C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1506CCD81B94922D002EE75C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1506CCC51B94922C002EE75C;
+					};
+				};
+			};
+			buildConfigurationList = 1506CCC11B94922C002EE75C /* Build configuration list for PBXProject "AstroCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1506CCBD1B94922C002EE75C;
+			productRefGroup = 1506CCC71B94922D002EE75C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1506CCC51B94922C002EE75C /* AstroCalc */,
+				1506CCD81B94922D002EE75C /* AstroCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1506CCC41B94922C002EE75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1506CCD11B94922D002EE75C /* Images.xcassets in Resources */,
+				1506CCD41B94922D002EE75C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1506CCD71B94922D002EE75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1506CCC21B94922C002EE75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1506CCCF1B94922D002EE75C /* main.m in Sources */,
+				1506CCCD1B94922D002EE75C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1506CCD51B94922D002EE75C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1506CCE01B94922D002EE75C /* AstroCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1506CCDB1B94922D002EE75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1506CCC51B94922C002EE75C /* AstroCalc */;
+			targetProxy = 1506CCDA1B94922D002EE75C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1506CCD21B94922D002EE75C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1506CCD31B94922D002EE75C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1506CCE11B94922D002EE75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1506CCE21B94922D002EE75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1506CCE41B94922D002EE75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AstroCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1506CCE51B94922D002EE75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AstroCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1506CCE71B94922D002EE75C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AstroCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroCalc.app/Contents/MacOS/AstroCalc";
+			};
+			name = Debug;
+		};
+		1506CCE81B94922D002EE75C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AstroCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroCalc.app/Contents/MacOS/AstroCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1506CCC11B94922C002EE75C /* Build configuration list for PBXProject "AstroCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1506CCE11B94922D002EE75C /* Debug */,
+				1506CCE21B94922D002EE75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1506CCE31B94922D002EE75C /* Build configuration list for PBXNativeTarget "AstroCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1506CCE41B94922D002EE75C /* Debug */,
+				1506CCE51B94922D002EE75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1506CCE61B94922D002EE75C /* Build configuration list for PBXNativeTarget "AstroCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1506CCE71B94922D002EE75C /* Debug */,
+				1506CCE81B94922D002EE75C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1506CCBE1B94922C002EE75C /* Project object */;
+}
